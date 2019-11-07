@@ -21,9 +21,9 @@ Project的build.gradle
 
 app的build.gradle
 
-apply plugin: 'android-aspectjx'
-  
-dependency
+    apply plugin: 'android-aspectjx'
+
+    ...
 
 	dependencies {
 	

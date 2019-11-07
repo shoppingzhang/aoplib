@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @NeedPermission(permiss = Manifest.permission.READ_EXTERNAL_STORAGE, requestCode = 200)
+    @NeedPermission(permission = Manifest.permission.READ_EXTERNAL_STORAGE, requestCode = 200)
     private void callStorage() {
         Toast.makeText(this, "huoqu quanxian le ", Toast.LENGTH_SHORT).show();
     }
 
-    @NeedPermission(permiss = Manifest.permission.CALL_PHONE, requestCode = 100)
+    @NeedPermission(permission = Manifest.permission.CALL_PHONE, requestCode = 100)
     private void callPhone() {
         Toast.makeText(this, "huoqu quanxian le ", Toast.LENGTH_SHORT).show();
     }
